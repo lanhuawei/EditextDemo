@@ -10,11 +10,10 @@ import android.widget.EditText;
 
 public class keyboardutils {
     /**
-     * 17      * 打卡软键盘
-     * 18      *
-     * 19      * @param mEditText 输入框
-     * 20      * @param mContext  上下文
-     * 21
+     * 打卡软键盘
+     *
+     * @param mEditText 输入框
+     * @param mContext  上下文
      */
     public static void openKeybord(final EditText mEditText, final Context mContext) {
         mEditText.post(new Runnable() {
