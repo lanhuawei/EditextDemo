@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zzz.edittextdemo.EditTextPlus
+        android:id="@+id/et_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        app:edit_editor_option="IME_ACTION_NEXT"
+        app:edit_hint_text="请输入用户名"
+        app:edit_input_type="Text"
+        app:edit_text_color="@color/colorPrimary"
+        app:head_title_text="用户名"
+        app:head_title_text_color="@color/colorAccent" />
+
+    <com.zzz.edittextdemo.EditTextPlus
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        app:edit_editor_option="IME_ACTION_GO"
+        app:edit_hint_text="请输入密码"
+        app:edit_input_type="Password"
+        app:edit_text_color="@color/colorPrimary"
+        app:head_title_text="密码"
+        app:head_title_text_color="@color/colorAccent" />
+
+</LinearLayout>
